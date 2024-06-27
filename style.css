@@ -1,0 +1,46 @@
+/* Large screen  */
+@media (max-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+}
+  
+/* Tablet screen  */
+@media (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+    }
+
+/* Mobile screen  */
+@media (max-width: 450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#running-button {
+    position: absolute;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: .5em;
+    background-color: lightgray;
+    font-size: 1rem;
+    padding: .5em;
+}
+
+#running-button img {
+    width: 20vmin;
+    height: 20vmin;
+}
